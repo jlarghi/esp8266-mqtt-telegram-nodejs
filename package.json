@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-telegram",
+  "version": "0.0.1",
+  "description": "Send messages to telegram with mqtt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/goodfield/mqtt-telegram.git"
+  },
+  "keywords": [
+    "telegram",
+    "mqtt"
+  ],
+  "author": "David Uebelacker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goodfield/mqtt-telegram/issues"
+  },
+  "homepage": "https://github.com/goodfield/mqtt-telegram#readme",
+  "dependencies": {
+    "log": "^1.4.0",
+    "mqtt": "^1.6.3",
+    "node-telegram-bot-api": "^0.19.0"
+  }
+}
